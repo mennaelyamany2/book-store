@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="index.html" class="logo"> <i class="fas fa-book"></i> bookly </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="login-btn" class="fas fa-user"><a href="https://www.barnesandnoble.com/"></a></div>
+        </div>
+
+    </div>
+
+    <div class="header-2 active">
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#featured">featured</a>
+            <a href="#arrivals">arrivals</a>
+            <a href="#reviews">reviews</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>upto 75% off</h3>
+            <p>All Your Books In One Place.</p>
+            <a href="#featured" class="btn">shop now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="https://www.barnesandnoble.com/w/think-python-downey/1124291518?ean=9781491939369" class="swiper-slide"><img src="image/Think Python.webp" alt=""></a>
+                <a href="https://www.barnesandnoble.com/w/data-science-from-scratch-joel-grus/1121709189?ean=9781492041139" class="swiper-slide"><img src="image/Data Science from Scratch.webp" alt=""></a>
+                <a href="https://www.barnesandnoble.com/w/deep-learning-with-python-second-edition-fran-ois-chollet/1139123949?ean=9781617296864" class="swiper-slide"><img src="image/Deep Learning with Python.webp" alt=""></a>
+                <a href="https://www.barnesandnoble.com/w/the-python-project-victor-canning/1000904648?ean=9781800324220" class="swiper-slide"><img src="image/The Python Project.webp" alt=""></a>
+                <a href="https://www.barnesandnoble.com/w/python-programming-john-zelle/1126329593?ean=9781590282755" class="swiper-slide"><img src="image/Python Programming.webp" alt=""></a>
+                <a href="https://www.barnesandnoble.com/w/hands-on-data-structures-and-algorithms-with-python-third-edition-basant-agarwal/1141916828?ean=9781801073448" class="swiper-slide"><img src="image/Data Structures and Algorithms with Python.webp" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over $100</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy returns</h3>
+            <p>10 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured books</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="https://www.barnesandnoble.com/w/python-all-in-one-for-dummies-john-shovic/1129527136?ean=9781119787600" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/Python All-in-One For Dummies.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Python All-in-One For Dummies</h3>
+                    <div class="price">$39.99 <span>$60.99</span></div>
+                    <a href="https://www.barnesandnoble.com/w/python-all-in-one-for-dummies-john-shovic/1129527136?ean=9781119787600" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    
+                    <a href="https://www.barnesandnoble.com/w/python-crash-course-3rd-edition-eric-matthes/1141287011?ean=9781718502703" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/Python Crash Course, 3rd Edition.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Python Crash Course, 3rd Edition</h3>
+                    <div class="price">$44.99 <span>$80.99</span></div>
+                    <a href="https://www.barnesandnoble.com/w/python-crash-course-3rd-edition-eric-matthes/1141287011?ean=9781718502703" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    
+                    <a href="https://www.barnesandnoble.com/w/learn-python-3-the-hard-way-zed-a-shaw/1125483809?ean=9780134692883" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/Learn Python 3 the Hard Way.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Learn Python 3 the Hard Way</h3>
+                    <div class="price">$$35.99 <span>$39.99</span></div>
+                    <a href="https://www.barnesandnoble.com/w/learn-python-3-the-hard-way-zed-a-shaw/1125483809?ean=9780134692883" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    
+                    <a href="https://www.barnesandnoble.com/w/automate-the-boring-stuff-with-python-2nd-edition-al-sweigart/1133598925?ean=9781593279929" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/Automate the Boring Stuff with Python.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Automate the Boring Stuff</h3>
+                    <div class="price">$39.95 <span>$40.99</span></div>
+                    <a href="https://www.barnesandnoble.com/w/automate-the-boring-stuff-with-python-2nd-edition-al-sweigart/1133598925?ean=9781593279929" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    
+                    <a href="https://www.barnesandnoble.com/w/python-in-easy-steps-mike-mcgrath/1114512720?ean=9781840788129" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/Python in easy steps.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Python in easy steps</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="https://www.barnesandnoble.com/w/python-in-easy-steps-mike-mcgrath/1114512720?ean=9781840788129" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    
+                    <a href="https://www.barnesandnoble.com/w/coding-projects-in-python-dk/1124897643?ean=9781465461889" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/Coding Projects in Python.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Coding Projects in Python</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="https://www.barnesandnoble.com/w/coding-projects-in-python-dk/1124897643?ean=9781465461889" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    
+                    <a href="https://www.barnesandnoble.com/w/coding-games-in-python-dk/1127203765?ean=9781465473615" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/Coding Games in Python.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Coding Games in Python</h3>
+                    <div class="price">$19.99 <span>$20.99</span></div>
+                    <a href="https://www.barnesandnoble.com/w/coding-games-in-python-dk/1127203765?ean=9781465473615" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    
+                    <a href="https://www.barnesandnoble.com/w/python-flash-cards-eric-matthes/1129141693?ean=9781593278960" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/Python Flash Cards.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Python Flash Cards</h3>
+                    <div class="price">$27.95 <span>$40.99</span></div>
+                    <a href="https://www.barnesandnoble.com/w/python-flash-cards-eric-matthes/1129141693?ean=9781593278960" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    
+                    <a href="https://www.barnesandnoble.com/w/machine-learning-for-absolute-beginners-oliver-theobald/1129119723?ean=9798558098426" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/Machine Learning for Absolute Beginners.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Machine Learning for Beginners</h3>
+                    <div class="price">$15.50 <span>$20.99</span></div>
+                    <a href="https://www.barnesandnoble.com/w/machine-learning-for-absolute-beginners-oliver-theobald/1129119723?ean=9798558098426" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    
+                    <a href="https://www.barnesandnoble.com/w/introduction-to-machine-learning-with-python-andreas-c-m-ller/1140203548?ean=9781449369415" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/Introduction to Machine Learning with Python.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Introduction to Machine Learning</h3>
+                    <div class="price">$59.99 <span>$90.99</span></div>
+                    <a href="https://www.barnesandnoble.com/w/introduction-to-machine-learning-with-python-andreas-c-m-ller/1140203548?ean=9781449369415" class="btn">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>subscribe for latest updates</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>new arrivals</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="https://www.barnesandnoble.com/w/coding-for-kids-ages-9-15-bob-mather/1137073395?ean=9780648852896" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/Coding for Kids .jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Coding for Kids</h3>
+                    <div class="price">$19.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.barnesandnoble.com/w/c-for-beginners-megane-noel/1140570668?ean=9798783543067" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/C++ for Beginners.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>C++ for Beginners</h3>
+                    <div class="price">$21.00<span>$29.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.barnesandnoble.com/w/fluent-python-luciano-ramalho/1137228085?ean=9781492056355" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/Fluent Python.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fluent Python</h3>
+                    <div class="price">$69.99<span>$100.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.barnesandnoble.com/w/python-for-kids-2nd-edition-jason-r-briggs/1141721854?ean=9781718503021" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/Python for Kids.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Python for Kids</h3>
+                    <div class="price">$34.99 <span>$90.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.barnesandnoble.com/w/python-data-science-computer-programming-academy/1136447033?ean=9781914185106" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/Python Data Science.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Python Data Science</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="https://www.barnesandnoble.com/w/python-machine-learning-computer-programming-academy/1136444920?ean=9781914185090" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals python machine learning.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>python machine learning</h3>
+                    <div class="price">$$23.95<span>$50.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.barnesandnoble.com/w/the-go-programming-language-alan-a-a-donovan/1124173664?ean=9780134190440" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals Go.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Go</h3>
+                    <div class="price">$39.99<span>$50.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.barnesandnoble.com/w/the-c-programming-language-bjarne-stroustrup/1117355501?ean=9780321563842" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals c++.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>c++</h3>
+                    <div class="price">$79.99 <span>$100.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.barnesandnoble.com/w/game-programming-patterns-robert-nystrom/1102794265?ean=9780990582908" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals patterns.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>patterns</h3>
+                    <div class="price">$39.95 <span>$50.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- arrivals section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>deal of the day</h3>
+        <h1>upto 50% off</h1>
+        <p>All Your books in one place.</p>
+        <a href="#arrivals" class="btn">shop now</a>
+    </div>
+
+    <div class="image">
+        <img src="image/deal-img.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>client's reviews</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/man.png" alt="">
+                <h3>Mostafa</h3>
+                <p>I love this service!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/woman.png" alt="">
+                <h3>Shorok</h3>
+                <p>Really enjoyed the services. Good Communication.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/man.png" alt="">
+                <h3>Ahmed</h3>
+                <p>This service is very good and I ever never see like this.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/woman.png" alt="">
+                <h3>Manar</h3>
+                <p>You guys are doing a good job. Keep up the good work.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/woman.png" alt="">
+                <h3>Menna</h3>
+                <p>Am grateful to be in this platform</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/woman.png" alt="">
+                <h3>Maryam</h3>
+                <p>I like service. Highly recommended</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/woman.png" alt="">
+                <h3>Maison</h3>
+                <p>Am grateful to be in this platform</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/woman.png" alt="">
+                <h3>Hala</h3>
+                <p>I like service. Highly recommended</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- reviews section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>our blogs</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/Mostafa.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mustafa's article</h3>
+                    <p>programming articles</p>
+                    <a href="https://mostafa2742002.github.io/articles/" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/menna2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Menna's article</h3>
+                    <p>portfolio</p>
+                    <a href="https://mennaelyamany2.github.io/portfolio/" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/mariam.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mariam's article</h3>
+                    <p>portfolio</p>
+                    <a href="https://mariam175.github.io/Blog/" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/shorok3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Shorok's article</h3>
+                    <p>portfolio</p>
+                    <a href="https://shorokatwa14.github.io/blog/index.html" class="btn">read more</a>
+                </div>
+            </div>
+            
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ahmed2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ahmed's article</h3>
+                    <p>portfolio</p>
+                    <a href="https://ahmed-elhosiny.github.io/Personal-Portfolio/" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/manar3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Manar's article</h3>
+                    <p>portfolio</p>
+                    <a href="https://mannarbahy.github.io/blog/" class="btn">read more</a>
+                </div>
+            </div>
+            
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/maisson2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>maisson's article</h3>
+                    <p>portfolio</p>
+                    <a href="https://maisson123.github.io/Bllog/index.html" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<div><p class="rights">@ 2021 All rights reserved | Designed by web team</a></p></div>
+    
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div> 
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
